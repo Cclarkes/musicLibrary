@@ -48,10 +48,10 @@ class Track {
 }
 
 let myJams = new Library("Connor\'s Sick Beats", "C-Money");
-let bestPlaylist = new Playlist("Reggae for the boys");
-let newTrack = new Track("Steel Drums I guess", 5, 145);
+let Playlist1 = new Playlist("Reggae for the boys");
+let newTrack1 = new Track("Steel Drums I guess", 5, 145);
 let newTrack2 = new Track("More Steel drums.. Sorry", 2, 85);
 
-bestPlaylist.addTracks(newTrack);
-bestPlaylist.addTracks(newTrack2);
+bestPlaylist1.addTracks(newTrack1);
+bestPlaylist1.addTracks(newTrack2);
 myJams.addPlaylist(bestPlaylist);
